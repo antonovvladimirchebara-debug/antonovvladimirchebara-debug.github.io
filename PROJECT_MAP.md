@@ -25,6 +25,7 @@ git add -A && git commit -m "chore: ..." && git push origin main
 | Дата | Коммит | Описание |
 |------|--------|----------|
 | 2026-04-01 | 98485a3 | Первый коммит: index + README |
+| 2026-04-01 | 24ccf62 | docs: PROJECT_MAP.md |
 
 ## Текущее состояние
 
