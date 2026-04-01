@@ -11,6 +11,7 @@
 | Файл | Назначение |
 |------|------------|
 | `index.html` | `yandex-verification`, meta refresh на блог |
+| `robots.txt` | `Sitemap:` на карту сайта блога `/moex-oi-analyst/sitemap.xml` |
 | `README.md` | Краткое описание репозитория |
 
 ## Команды
@@ -26,7 +27,9 @@ git add -A && git commit -m "chore: ..." && git push origin main
 |------|--------|----------|
 | 2026-04-01 | 98485a3 | Первый коммит: index + README |
 | 2026-04-01 | 24ccf62 | docs: PROJECT_MAP.md |
+| 2026-04-01 | 2328011 | feat: robots.txt с Sitemap на блог |
 
 ## Текущее состояние
 
 - Pages: ветка `main`, корень `/`, URL <https://antonovvladimirchebara-debug.github.io/>
+- `robots.txt` отдаётся с корня и указывает на sitemap блога (дополнительно к отправке sitemap в консолях поиска).
